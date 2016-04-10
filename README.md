@@ -23,7 +23,6 @@ For running in cluster modify `--master` parameter in `run.bash`
 See output like:
 
         INFO DAGScheduler: Job 7 finished: countByValue at MulticlassMetrics.scala:43, took 5.492259 s
-        ---------------------------
         fMeasure: 0.8093977498345467
         precision: 0.8093977498345467 recall: 0.8093977498345467
         ---------------------------

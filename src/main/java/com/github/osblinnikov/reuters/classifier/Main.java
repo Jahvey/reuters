@@ -1,7 +1,5 @@
-package com.reuters.classifier.sub;
+package com.github.osblinnikov.reuters.classifier;
 
-import com.reuters.classifier.ClassificationModel;
-import com.reuters.classifier.Classifier;
 import org.apache.commons.cli.ParseException;
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;

@@ -1,4 +1,4 @@
-package com.reuters.classifier
+package com.github.osblinnikov.reuters.classifier
 
 import org.apache.spark.mllib.classification.NaiveBayesModel
 

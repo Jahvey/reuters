@@ -1,4 +1,4 @@
-package com.reuters.classifier
+package com.github.osblinnikov.reuters.classifier
 
 /**
   * Created by oleg on 4/9/16.

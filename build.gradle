@@ -1,5 +1,5 @@
-group 'com.ruters'
-version '1.0-SNAPSHOT'
+group 'com.github.osblinnikov.reuters.classification'
+version '1.0'
 
 buildscript {
     repositories { jcenter() }
@@ -50,6 +50,8 @@ shadowJar {
         exclude(dependency('org.apache.hadoop:hadoop-client_2.11'))
         exclude(dependency('commons-cli:commons-cli'))
     }
+
+    archiveName = 'reuters-classification.jar'
 }
 
 jar {

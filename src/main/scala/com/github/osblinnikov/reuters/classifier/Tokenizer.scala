@@ -1,8 +1,7 @@
-package com.reuters.classifier
+package com.github.osblinnikov.reuters.classifier
 
 import java.io.StringReader
 
-import com.reuters.classifier.sub.Document
 import org.apache.lucene.analysis.en.EnglishAnalyzer
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute
 

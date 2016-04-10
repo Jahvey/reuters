@@ -1,6 +1,5 @@
-package com.reuters.classifier
+package com.github.osblinnikov.reuters.classifier
 
-import com.reuters.classifier.sub.Document
 import org.apache.spark.SparkContext
 import org.apache.spark.mllib.classification.NaiveBayes
 import org.apache.spark.mllib.evaluation.MulticlassMetrics

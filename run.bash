@@ -6,8 +6,8 @@ cd $SCRIPTPATH
 
 spark-submit \
     --master local[8] \
-    --class com.reuters.classifier.sub.Main \
-    build/libs/classification-1.0-SNAPSHOT-all.jar \
+    --class com.github.osblinnikov.reuters.classifier.Main \
+    build/libs/reuters-classification.jar \
     ${*:1}
 
 cd $PREVIOUS_PATH

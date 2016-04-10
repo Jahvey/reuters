@@ -1,4 +1,4 @@
-package com.reuters.classifier.sub;
+package com.github.osblinnikov.reuters.classifier;
 
 import java.util.HashSet;
 import java.util.List;
